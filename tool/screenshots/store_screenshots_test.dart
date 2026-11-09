@@ -45,14 +45,14 @@ class _Choice extends ChoiceNotifier {
 class _Tally extends PracticeTallyNotifier {
   @override
   Future<Map<String, List<int>>> build() async => const {
-    'physics/kinematics': [17, 20],
-    'physics/forces': [14, 20],
-    'physics/energy': [9, 15],
-    'physics/circuits': [6, 12],
-    'physics/optics': [11, 13],
-    'math/functions': [18, 22],
-    'math/trig': [12, 20],
-    'chemistry/mole': [8, 14],
+    'math/numbers': [17, 20],
+    'math/matrices': [14, 20],
+    'math/quadratic': [19, 25],
+    'math/sequences': [11, 20],
+    'math/counting': [9, 15],
+    'math/trig': [22, 30],
+    'physics/motion': [16, 20],
+    'english/synonyms': [12, 15],
   };
 }
 
@@ -91,7 +91,7 @@ void main() {
     final repository = ContentRepository((path) async => _assets[path]!);
     final papers = await repository.papers();
     sittings = {
-      for (final id in ['physics-01', 'math-03', 'chemistry-02', 'physics-04'])
+      for (final id in ['engineering-01', 'engineering-03', 'engineering-02', 'engineering-04'])
         id: switch (await repository.sitting(
           papers.firstWhere((p) => p.id == id),
           useEthics: false,
@@ -110,7 +110,7 @@ void main() {
     WidgetTester tester,
     String name,
     String location, {
-    String mode = 'physics',
+    String mode = 'engineering',
     List<Attempt> attempts = const [],
     Future<void> Function()? then,
   }) async {
@@ -176,9 +176,9 @@ void main() {
   }
 
   List<Attempt> history() => [
-    finished('3', 'physics-01', 37, 1),
-    finished('2', 'math-03', 34, 3),
-    finished('1', 'chemistry-02', 29, 6),
+    finished('3', 'engineering-01', 152, 1),
+    finished('2', 'engineering-03', 141, 3),
+    finished('1', 'engineering-02', 128, 6),
   ];
 
   testWidgets('1 mocks', (tester) async {
@@ -186,16 +186,16 @@ void main() {
   });
 
   testWidgets('2 exam', (tester) async {
-    final questions = sittings['physics-04']!.questions;
+    final questions = sittings['engineering-04']!.questions;
     final index = questions.indexWhere(
       (q) => q.stem.length > 140 && q.stem.length < 260 && !q.stem.contains('\n'),
     );
     final attempt = Attempt(
       id: '9',
-      paperId: 'physics-04',
+      paperId: 'engineering-04',
       useEthics: false,
       startedAt: _now,
-      remainingSeconds: 37 * 60 + 12,
+      remainingSeconds: 2 * 3600 + 5 * 60 + 12,
       answers: {
         ..._answers(questions, index, upTo: index),
         questions[index].id: questions[index].answer,
@@ -211,7 +211,7 @@ void main() {
   });
 
   testWidgets('4 review', (tester) async {
-    await shoot(tester, '4-explanations', '/review/3', attempts: history());
+    await shoot(tester, '4-explanations', '/review/1', attempts: history());
   });
 
   testWidgets('5 practice', (tester) async {
@@ -225,8 +225,8 @@ void main() {
     );
   });
 
-  testWidgets('6 notes', (tester) async {
-    await shoot(tester, '6-study-notes', '/lesson/math/trig');
+  testWidgets('6 guide article', (tester) async {
+    await shoot(tester, '6-guide-merit', '/guide/merit');
   });
 
   testWidgets('7 guide', (tester) async {
