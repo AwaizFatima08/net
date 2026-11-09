@@ -250,7 +250,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get aboutBody =>
-      'Prep Simulator for NET is an independent practice app by HomiLabs for students preparing for the NUST Entry Test (NET), the undergraduate admission test of the National University of Sciences and Technology, Pakistan. It is not affiliated with, endorsed by or connected to NUST. All questions and explanations are original practice material written for this app, not real or recalled papers, and scores are practice estimates only. Always check nust.edu.pk for official dates, fees and rules.';
+      'Prep Simulator for NET is an independent practice app by HomiLabs for students preparing for the NUST Entry Test (NET), the undergraduate admission test of the National University of Sciences and Technology, Pakistan. This app does not represent NUST, the Government of Pakistan or any government entity, and it is not affiliated with, endorsed by or connected to them. All questions and explanations are original practice material written for this app, not real or recalled papers, and scores are practice estimates only.\n\nOfficial sources for NET dates, fees, rules and results: https://nust.edu.pk/admissions/undergraduates/ and https://ugadmissions.nust.edu.pk';
 
   @override
   String get privacy => 'Privacy policy';
@@ -339,4 +339,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String aggregateValue(String value) {
     return 'Aggregate $value%';
   }
+
+  @override
+  String get officialSource => 'Official NUST admissions (nust.edu.pk)';
 }

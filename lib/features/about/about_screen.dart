@@ -28,6 +28,10 @@ class AboutScreen extends ConsumerWidget {
           const SizedBox(height: AppSpacing.md),
           Text(l10n.aboutBody),
           const SizedBox(height: AppSpacing.md),
+          ListTile(
+            title: Text(l10n.officialSource),
+            onTap: () => _open('https://nust.edu.pk/admissions/undergraduates/'),
+          ),
           ListTile(title: Text(l10n.website), onTap: () => _open(_site)),
           ListTile(
             title: Text(l10n.privacy),
