@@ -1,0 +1,630 @@
+{
+ "sections": [
+  {
+   "key": "math",
+   "title": "Mathematics",
+   "group": "engineering",
+   "topics": [
+    {
+     "key": "numbers",
+     "prefix": "mn",
+     "title": "Number Systems and Complex Numbers",
+     "test": 120,
+     "practice": 20,
+     "scope": "Real numbers and their properties, rational/irrational, complex numbers: algebra, conjugate, modulus, argument, polar form, De Moivre for small powers, square roots of complex numbers, roots of unity (cube roots of unity, ω properties); sets, functions and binary operations, groups (basic)."
+    },
+    {
+     "key": "matrices",
+     "prefix": "mx",
+     "title": "Matrices and Determinants",
+     "test": 140,
+     "practice": 20,
+     "scope": "Types of matrices, addition, multiplication, transpose, symmetric/skew, determinants of 2×2 and 3×3, properties of determinants, cofactors, adjoint, inverse, singular matrices, solving linear systems (Cramer's rule, inverse method), rank basics."
+    },
+    {
+     "key": "quadratic",
+     "prefix": "mq",
+     "title": "Quadratic Equations and Partial Fractions",
+     "test": 160,
+     "practice": 25,
+     "scope": "Solving quadratics, discriminant and nature of roots, sum and product of roots, forming equations from roots, symmetric functions of roots, equations reducible to quadratic, exponential equations, radical equations, remainder and factor theorems, synthetic division; partial fractions (linear, repeated, quadratic factors)."
+    },
+    {
+     "key": "sequences",
+     "prefix": "ms",
+     "title": "Sequences and Series",
+     "test": 140,
+     "practice": 20,
+     "scope": "Arithmetic progression (nth term, sum, arithmetic means), geometric progression (nth term, sum, infinite GP), harmonic progression, relation A ≥ G ≥ H, sums of n, n², n³, word problems on AP/GP."
+    },
+    {
+     "key": "counting",
+     "prefix": "mc",
+     "title": "Permutations, Combinations and Probability",
+     "test": 140,
+     "practice": 20,
+     "scope": "Factorial notation, fundamental counting principle, permutations (including repeated and circular), combinations, nCr properties, probability of events, addition and multiplication laws, complementary, independent and mutually exclusive events, simple conditional probability."
+    },
+    {
+     "key": "binomial",
+     "prefix": "mb",
+     "title": "Mathematical Induction and Binomial Theorem",
+     "test": 100,
+     "practice": 15,
+     "scope": "Principle of mathematical induction (identifying valid statements), binomial theorem for positive integral index, general term, middle term, term independent of x, coefficients and their sums, binomial series for negative/fractional index and approximations."
+    },
+    {
+     "key": "trig",
+     "prefix": "mt",
+     "title": "Trigonometry",
+     "test": 280,
+     "practice": 35,
+     "scope": "Radian measure, arc length and sector area, trigonometric ratios of allied angles, identities, sum and difference, double and half angle, sum-to-product, periods and graphs of trigonometric functions, solution of triangles (sine, cosine, tangent rules, area, circum- and in-radius), inverse trigonometric functions, solving trigonometric equations."
+    },
+    {
+     "key": "functions",
+     "prefix": "mf",
+     "title": "Functions, Limits and Continuity",
+     "test": 160,
+     "practice": 25,
+     "scope": "Functions: domain, range, composition, inverse, even/odd, graphs and transformations; limits of algebraic, trigonometric and exponential forms (sin x/x, (1 + 1/n)ⁿ, (aˣ − 1)/x), continuity at a point, piecewise functions."
+    },
+    {
+     "key": "differentiation",
+     "prefix": "md",
+     "title": "Differentiation and its Applications",
+     "test": 220,
+     "practice": 30,
+     "scope": "Derivative from first principles, rules (sum, product, quotient, chain), implicit and parametric differentiation, derivatives of trigonometric, inverse trigonometric, exponential and logarithmic functions, higher derivatives, tangents and normals, increasing/decreasing, maxima and minima, Maclaurin series basics."
+    },
+    {
+     "key": "integration",
+     "prefix": "mi",
+     "title": "Integration",
+     "test": 200,
+     "practice": 30,
+     "scope": "Antiderivatives of standard functions, substitution, integration by parts, partial fractions in integration, definite integrals and their properties, area under a curve and between simple curves, simple differential equations (variables separable)."
+    },
+    {
+     "key": "lines",
+     "prefix": "ml",
+     "title": "Straight Lines and Linear Inequalities",
+     "test": 120,
+     "practice": 20,
+     "scope": "Distance, section formula, slope, forms of a line, angle between lines, parallel and perpendicular lines, distance from a point to a line, concurrency, area of a triangle by coordinates; linear inequalities in two variables, feasible regions, linear programming (corner points)."
+    },
+    {
+     "key": "conics",
+     "prefix": "mo",
+     "title": "Circles and Conic Sections",
+     "test": 120,
+     "practice": 20,
+     "scope": "Circle: standard and general equation, centre and radius, tangents and normals, position of a point/line; parabola, ellipse, hyperbola: standard forms, focus, directrix, vertices, eccentricity, latus rectum, axes, asymptotes."
+    },
+    {
+     "key": "vectors",
+     "prefix": "mv",
+     "title": "Vectors",
+     "test": 100,
+     "practice": 15,
+     "scope": "Vectors in 2-D and 3-D, unit vectors, direction cosines, addition, scalar (dot) product, angle between vectors, projection, vector (cross) product, area of parallelogram and triangle, scalar triple product and volume, work done by a force."
+    }
+   ]
+  },
+  {
+   "key": "physics",
+   "title": "Physics",
+   "group": "engineering",
+   "topics": [
+    {
+     "key": "measurement",
+     "prefix": "pa",
+     "title": "Measurements, Vectors and Equilibrium",
+     "test": 80,
+     "practice": 15,
+     "scope": "SI units, prefixes, significant figures, errors and uncertainties, dimensional analysis; vectors: resolution, addition by components, dot and cross products, torque, equilibrium conditions (first and second)."
+    },
+    {
+     "key": "motion",
+     "prefix": "pk",
+     "title": "Motion and Force",
+     "test": 140,
+     "practice": 25,
+     "scope": "Displacement, velocity, acceleration, equations of motion, velocity-time graphs, Newton's laws, momentum and impulse, conservation of momentum, elastic and inelastic collisions in one dimension, force due to water flow, rocket propulsion, projectile motion (range, height, time of flight)."
+    },
+    {
+     "key": "energy",
+     "prefix": "pw",
+     "title": "Work, Energy and Power",
+     "test": 80,
+     "practice": 15,
+     "scope": "Work by constant and variable force, power, kinetic and potential energy, work-energy principle, conservation of energy, escape velocity, interconversion of energy, efficiency."
+    },
+    {
+     "key": "circular",
+     "prefix": "pc",
+     "title": "Circular Motion, Rotation and Gravitation",
+     "test": 100,
+     "practice": 20,
+     "scope": "Angular displacement, velocity and acceleration, centripetal force, moment of inertia, angular momentum and its conservation, rotational KE, artificial satellites, orbital velocity, real and apparent weight, weightlessness, Newton's law of gravitation, variation of g."
+    },
+    {
+     "key": "fluids",
+     "prefix": "pf",
+     "title": "Fluid Dynamics",
+     "test": 40,
+     "practice": 10,
+     "scope": "Viscous drag and Stokes' law, terminal velocity, laminar and turbulent flow, equation of continuity, Bernoulli's equation and its applications (Venturi, Torricelli)."
+    },
+    {
+     "key": "oscillations",
+     "prefix": "po",
+     "title": "Oscillations",
+     "test": 60,
+     "practice": 15,
+     "scope": "Simple harmonic motion, its equations, mass-spring system, simple pendulum, energy in SHM, phase, free and forced oscillations, resonance, damping."
+    },
+    {
+     "key": "waves",
+     "prefix": "pv",
+     "title": "Waves and Sound",
+     "test": 80,
+     "practice": 15,
+     "scope": "Progressive waves, wave speed v = fλ, speed of sound (Newton and Laplace correction, temperature effect), principle of superposition, interference, beats, stationary waves on strings and in pipes (harmonics), Doppler effect."
+    },
+    {
+     "key": "optics",
+     "prefix": "pl",
+     "title": "Physical Optics and Optical Instruments",
+     "test": 80,
+     "practice": 15,
+     "scope": "Wavefronts, Huygens' principle, Young's double slit, thin films, Newton's rings, Michelson interferometer, diffraction (single slit, grating), polarisation; magnification, simple and compound microscope, telescope, resolving power, optical fibres."
+    },
+    {
+     "key": "thermo",
+     "prefix": "pt",
+     "title": "Heat and Thermodynamics",
+     "test": 80,
+     "practice": 15,
+     "scope": "Kinetic theory of gases, pressure and temperature, ideal gas law, internal energy, first law of thermodynamics, isothermal and adiabatic processes, molar specific heats, heat engines, Carnot cycle and efficiency, second law, entropy (basic)."
+    },
+    {
+     "key": "electrostatics",
+     "prefix": "pe",
+     "title": "Electrostatics and Capacitors",
+     "test": 120,
+     "practice": 20,
+     "scope": "Coulomb's law, electric field and field lines, electric flux and Gauss's law, electric potential and potential difference, electron volt, field and potential of point charges, capacitors (parallel plate, dielectrics, series and parallel, energy stored), charging and discharging (time constant)."
+    },
+    {
+     "key": "current",
+     "prefix": "pi",
+     "title": "Current Electricity",
+     "test": 100,
+     "practice": 20,
+     "scope": "Current, drift, Ohm's law, resistivity and its temperature dependence, colour code, series and parallel, electrical power, EMF and internal resistance, maximum power transfer, Kirchhoff's rules, Wheatstone bridge, potentiometer, thermistors."
+    },
+    {
+     "key": "magnetism",
+     "prefix": "pm",
+     "title": "Electromagnetism, Induction and AC",
+     "test": 120,
+     "practice": 20,
+     "scope": "Magnetic field of currents, force on a current-carrying conductor and on moving charges, e/m, galvanometer, ammeter and voltmeter conversion; Faraday's and Lenz's laws, motional EMF, self and mutual induction, energy in an inductor, generators, motors, back EMF, transformers; AC: rms values, phase, reactance, impedance in RC/RL/RLC, resonance, power in AC circuits."
+    },
+    {
+     "key": "electronics",
+     "prefix": "ps",
+     "title": "Physics of Solids and Electronics",
+     "test": 40,
+     "practice": 10,
+     "scope": "Stress, strain, Young's modulus, elastic limit, energy bands, conductors, semiconductors and insulators, p- and n-type, p-n junction, rectification, transistor basics, logic gates (AND, OR, NOT, NAND, NOR truth tables)."
+    },
+    {
+     "key": "modern",
+     "prefix": "pq",
+     "title": "Modern, Atomic and Nuclear Physics",
+     "test": 80,
+     "practice": 15,
+     "scope": "Special relativity basics (time dilation, length contraction, mass-energy), photoelectric effect, Compton effect, pair production, de Broglie waves, uncertainty principle; Bohr model, hydrogen spectrum, X-rays, lasers; nucleus, mass defect, binding energy, radioactivity, half-life, nuclear reactions, fission, fusion, radiation detectors and safety."
+    }
+   ]
+  },
+  {
+   "key": "english",
+   "title": "English",
+   "group": "engineering",
+   "topics": [
+    {
+     "key": "synonyms",
+     "prefix": "es",
+     "title": "Synonyms and Word Meaning",
+     "test": 140,
+     "practice": 30,
+     "scope": "Vocabulary at SAT/HSSC level: choose the word closest in meaning to a given word (stem names the word in capitals), or the meaning of a word in a short sentence context."
+    },
+    {
+     "key": "antonyms",
+     "prefix": "ea",
+     "title": "Antonyms",
+     "test": 100,
+     "practice": 25,
+     "scope": "Choose the word most opposite in meaning to a given word in capitals; distractors include synonyms and look-alike words."
+    },
+    {
+     "key": "analogies",
+     "prefix": "eg",
+     "title": "Analogies",
+     "test": 100,
+     "practice": 25,
+     "scope": "Word-pair relationships (part-whole, cause-effect, tool-user, degree, type-of, antonym pairs): stem 'A : B as' with four pair options written 'x : y'."
+    },
+    {
+     "key": "completion",
+     "prefix": "ec",
+     "title": "Sentence Completion",
+     "test": 160,
+     "practice": 35,
+     "scope": "One- or two-blank sentence completion testing vocabulary, logic and connectors (although, therefore, despite); blanks written as ______; two-blank options written 'word ... word'."
+    },
+    {
+     "key": "grammar",
+     "prefix": "ee",
+     "title": "Grammar and Error Identification",
+     "test": 180,
+     "practice": 40,
+     "scope": "Subject-verb agreement, tenses, pronouns, prepositions, articles, modifiers, parallelism, comparison, conditionals, active/passive and direct/indirect speech; identify the error (underlined parts given as (A) … (D) in the stem), choose the correct sentence, or improve the sentence."
+    },
+    {
+     "key": "reading",
+     "prefix": "er",
+     "title": "Reading Comprehension",
+     "test": 120,
+     "practice": 30,
+     "scope": "Original passages of 180-260 words (science, history, society, technology) with 3 questions each: main idea, detail, inference, vocabulary in context, author's tone or purpose."
+    }
+   ]
+  },
+  {
+   "key": "chemistry",
+   "title": "Chemistry",
+   "group": "applied",
+   "topics": [
+    {
+     "key": "stoichiometry",
+     "prefix": "ca",
+     "title": "Mole Concept and Stoichiometry",
+     "test": 0,
+     "practice": 20,
+     "scope": "Atoms, molecules, ions, relative masses, mole and Avogadro's number, molar volume, empirical and molecular formulae, stoichiometric calculations, limiting reactant, yield; experimental techniques (filtration, crystallisation, sublimation, solvent extraction, chromatography)."
+    },
+    {
+     "key": "states",
+     "prefix": "cs",
+     "title": "Gases, Liquids and Solids",
+     "test": 0,
+     "practice": 15,
+     "scope": "Gas laws, ideal gas equation, Dalton's and Graham's laws, kinetic theory, real gases; intermolecular forces, hydrogen bonding, vapour pressure, boiling point; crystalline solids, lattice types, unit cell basics."
+    },
+    {
+     "key": "atomic",
+     "prefix": "ct",
+     "title": "Atomic Structure",
+     "test": 0,
+     "practice": 15,
+     "scope": "Discovery of particles, Rutherford and Bohr models, hydrogen spectrum, quantum numbers, orbitals, Aufbau, Pauli, Hund's rule, electronic configurations."
+    },
+    {
+     "key": "bonding",
+     "prefix": "cb",
+     "title": "Chemical Bonding",
+     "test": 0,
+     "practice": 15,
+     "scope": "Ionic, covalent, coordinate and metallic bonds, electronegativity, polarity, VSEPR shapes, hybridisation (sp, sp², sp³), sigma and pi bonds, bond energy, dipole moment."
+    },
+    {
+     "key": "thermochem",
+     "prefix": "ch",
+     "title": "Thermochemistry",
+     "test": 0,
+     "practice": 12,
+     "scope": "Exothermic and endothermic reactions, enthalpy changes (formation, combustion, neutralisation, atomisation), Hess's law, Born-Haber cycle (basic), calorimetry."
+    },
+    {
+     "key": "equilibrium",
+     "prefix": "ce",
+     "title": "Chemical Equilibrium and Kinetics",
+     "test": 0,
+     "practice": 18,
+     "scope": "Reversible reactions, law of mass action, Kc and Kp, Le Chatelier's principle, ionic product of water, pH, buffers, solubility product, common ion effect; reaction rate, order, half-life, activation energy, catalysis."
+    },
+    {
+     "key": "electrochem",
+     "prefix": "cn",
+     "title": "Solutions and Electrochemistry",
+     "test": 0,
+     "practice": 18,
+     "scope": "Concentration units, Raoult's law, colligative properties; oxidation numbers, balancing redox, electrolysis, electrochemical cells, electrode potentials, batteries and corrosion."
+    },
+    {
+     "key": "periodic",
+     "prefix": "cp",
+     "title": "Periodic Table, s- and p-Block Elements",
+     "test": 0,
+     "practice": 18,
+     "scope": "Periodic trends (atomic radius, ionisation energy, electron affinity, electronegativity), alkali and alkaline earth metals and compounds, groups III-VII elements and their compounds, halogens, noble gases."
+    },
+    {
+     "key": "transition",
+     "prefix": "cx",
+     "title": "Transition Elements",
+     "test": 0,
+     "practice": 12,
+     "scope": "Electronic configuration, variable oxidation states, colour, magnetism, complexes and ligands, coordination number, chromate/dichromate and permanganate chemistry, iron and steel."
+    },
+    {
+     "key": "hydrocarbons",
+     "prefix": "co",
+     "title": "Organic Basics and Hydrocarbons",
+     "test": 0,
+     "practice": 20,
+     "scope": "Organic compounds, functional groups, isomerism, IUPAC naming, alkanes, alkenes, alkynes (preparation and reactions), benzene and its electrophilic substitution, reaction mechanisms basics."
+    },
+    {
+     "key": "halides",
+     "prefix": "cf",
+     "title": "Alkyl Halides, Alcohols, Phenols and Ethers",
+     "test": 0,
+     "practice": 18,
+     "scope": "Alkyl halides: SN1, SN2, E1, E2, Grignard reagents; alcohols: classification, preparation, reactions, Lucas test; phenol acidity and reactions; ethers."
+    },
+    {
+     "key": "carbonyl",
+     "prefix": "cc",
+     "title": "Aldehydes, Ketones and Carboxylic Acids",
+     "test": 0,
+     "practice": 18,
+     "scope": "Preparation and reactions of aldehydes and ketones (nucleophilic addition, Tollens' and Fehling's tests, iodoform), carboxylic acids and derivatives, esters, amides, amino acids."
+    },
+    {
+     "key": "macro",
+     "prefix": "cm",
+     "title": "Macromolecules, Industrial and Environmental Chemistry",
+     "test": 0,
+     "practice": 15,
+     "scope": "Polymers (addition and condensation), carbohydrates, proteins, lipids, nucleic acids, fertilisers, cement, paper, petrochemicals, air and water pollution, ozone depletion, green chemistry."
+    }
+   ]
+  },
+  {
+   "key": "biology",
+   "title": "Biology",
+   "group": "applied",
+   "topics": [
+    {
+     "key": "molecules",
+     "prefix": "bm",
+     "title": "Biological Molecules and Enzymes",
+     "test": 0,
+     "practice": 20,
+     "scope": "Water, carbohydrates, proteins, lipids, nucleic acids, conjugated molecules; enzyme structure, mechanism (lock-and-key, induced fit), factors affecting enzyme activity, inhibitors, cofactors."
+    },
+    {
+     "key": "cell",
+     "prefix": "bc",
+     "title": "Cell Structure and Function",
+     "test": 0,
+     "practice": 18,
+     "scope": "Microscopy, cell theory, plasma membrane models, cell wall, organelles (nucleus, mitochondria, plastids, ER, Golgi, lysosomes, ribosomes), prokaryotic vs eukaryotic cells."
+    },
+    {
+     "key": "variety",
+     "prefix": "bv",
+     "title": "Variety of Life: Viruses, Bacteria, Protists, Fungi",
+     "test": 0,
+     "practice": 18,
+     "scope": "Classification and five-kingdom system, binomial nomenclature, viruses (structure, lytic and lysogenic cycles, HIV, hepatitis), bacteria, cyanobacteria, protists, fungi and their importance."
+    },
+    {
+     "key": "plants",
+     "prefix": "bp",
+     "title": "Kingdom Plantae",
+     "test": 0,
+     "practice": 12,
+     "scope": "Bryophytes, tracheophytes, alternation of generations, evolution of seed habit, gymnosperms and angiosperms, families of flowering plants."
+    },
+    {
+     "key": "animals",
+     "prefix": "ba",
+     "title": "Kingdom Animalia",
+     "test": 0,
+     "practice": 12,
+     "scope": "Characteristics and classification of animal phyla (Porifera to Chordata), body symmetry, coelom, diploblastic and triploblastic organisation."
+    },
+    {
+     "key": "bioenergetics",
+     "prefix": "be",
+     "title": "Bioenergetics",
+     "test": 0,
+     "practice": 15,
+     "scope": "Photosynthesis (light and dark reactions, photosystems, factors), cellular respiration (glycolysis, Krebs cycle, electron transport chain, ATP yield), anaerobic respiration, photorespiration."
+    },
+    {
+     "key": "nutrition",
+     "prefix": "bn",
+     "title": "Nutrition, Gaseous Exchange and Transport",
+     "test": 0,
+     "practice": 20,
+     "scope": "Autotrophic and heterotrophic nutrition, human digestive system, disorders; gaseous exchange in plants and humans, respiratory disorders; transport in plants (xylem, phloem, transpiration), human heart, blood, blood vessels, lymphatic system, immunity."
+    },
+    {
+     "key": "homeostasis",
+     "prefix": "bh",
+     "title": "Homeostasis, Support and Movement",
+     "test": 0,
+     "practice": 15,
+     "scope": "Osmoregulation, excretion, nephron structure and urine formation, thermoregulation; skeleton, joints, muscle structure and sliding filament theory, plant support and movements."
+    },
+    {
+     "key": "coordination",
+     "prefix": "bk",
+     "title": "Coordination and Control",
+     "test": 0,
+     "practice": 15,
+     "scope": "Plant hormones, nervous system, neuron, nerve impulse, synapse, reflex arc, brain parts, endocrine glands and hormones, feedback mechanisms, behaviour."
+    },
+    {
+     "key": "reproduction",
+     "prefix": "br",
+     "title": "Reproduction, Growth and Development",
+     "test": 0,
+     "practice": 15,
+     "scope": "Asexual and sexual reproduction in plants and animals, human reproductive systems, menstrual cycle, sexually transmitted diseases, embryonic development, ageing, regeneration."
+    },
+    {
+     "key": "genetics",
+     "prefix": "bg",
+     "title": "Chromosomes, DNA, Cell Cycle and Genetics",
+     "test": 0,
+     "practice": 22,
+     "scope": "Chromosome structure, DNA replication, transcription, translation, genetic code, mutations; mitosis, meiosis, cell cycle control; Mendel's laws, dominance types, multiple alleles, blood groups, sex linkage, linkage and crossing over."
+    },
+    {
+     "key": "biotech",
+     "prefix": "bt",
+     "title": "Biotechnology and Evolution",
+     "test": 0,
+     "practice": 13,
+     "scope": "Recombinant DNA, restriction enzymes, vectors, PCR, gene therapy, cloning, GM organisms; theories of evolution, Darwinism, Hardy-Weinberg (basic), evidence of evolution."
+    },
+    {
+     "key": "ecology",
+     "prefix": "bo",
+     "title": "Ecosystem and Environment",
+     "test": 0,
+     "practice": 15,
+     "scope": "Ecosystem components, food chains and webs, energy flow, biogeochemical cycles, succession, biomes, population dynamics, pollution, conservation, deforestation, climate change."
+    }
+   ]
+  },
+  {
+   "key": "quant",
+   "title": "Quantitative Mathematics",
+   "group": "business",
+   "topics": [
+    {
+     "key": "arithmetic",
+     "prefix": "qa",
+     "title": "Arithmetic and Word Problems",
+     "test": 0,
+     "practice": 40,
+     "scope": "Percentages, ratio and proportion, averages, profit and loss, simple and compound interest, speed-distance-time, work and time, mixtures, number properties (divisibility, primes, LCM, HCF), fractions and decimals."
+    },
+    {
+     "key": "algebra",
+     "prefix": "qg",
+     "title": "Algebra and Functions",
+     "test": 0,
+     "practice": 35,
+     "scope": "Linear and quadratic equations, simultaneous equations, inequalities, exponents and logarithms, sequences, functions and graphs, word problems leading to equations."
+    },
+    {
+     "key": "geometry",
+     "prefix": "qm",
+     "title": "Geometry and Trigonometry",
+     "test": 0,
+     "practice": 30,
+     "scope": "Angles, triangles, Pythagoras, similar triangles, circles, polygons, perimeter, area and volume, coordinate geometry basics, basic trigonometric ratios and heights and distances."
+    },
+    {
+     "key": "matrices",
+     "prefix": "qx",
+     "title": "Matrices",
+     "test": 0,
+     "practice": 15,
+     "scope": "Matrix operations, determinants of 2×2 and 3×3, inverse of 2×2, solving two simultaneous equations by matrices."
+    },
+    {
+     "key": "statistics",
+     "prefix": "qs",
+     "title": "Probability and Statistics",
+     "test": 0,
+     "practice": 30,
+     "scope": "Mean, median, mode, range, standard deviation (simple), reading tables and charts, counting, permutations and combinations, basic probability."
+    },
+    {
+     "key": "calculus",
+     "prefix": "qc",
+     "title": "Limits and Basic Calculus",
+     "test": 0,
+     "practice": 20,
+     "scope": "Limits of simple functions, derivatives of polynomials, rates of change, maxima and minima in simple business contexts (profit, cost), basic integration of polynomials."
+    }
+   ]
+  }
+ ],
+ "modes": {
+  "engineering": {
+   "title": "NET-Engineering",
+   "subtitle": "200 questions · 3 hours · no negative marking",
+   "minutes": 180,
+   "questions": 200,
+   "streams": {
+    "mock": {
+     "title": "NET Mock",
+     "sections": [
+      {
+       "section": "math",
+       "quota": {
+        "numbers": 6,
+        "matrices": 7,
+        "quadratic": 8,
+        "sequences": 7,
+        "counting": 7,
+        "binomial": 5,
+        "trig": 14,
+        "functions": 8,
+        "differentiation": 11,
+        "integration": 10,
+        "lines": 6,
+        "conics": 6,
+        "vectors": 5
+       }
+      },
+      {
+       "section": "physics",
+       "quota": {
+        "measurement": 4,
+        "motion": 7,
+        "energy": 4,
+        "circular": 5,
+        "fluids": 2,
+        "oscillations": 3,
+        "waves": 4,
+        "optics": 4,
+        "thermo": 4,
+        "electrostatics": 6,
+        "current": 5,
+        "magnetism": 6,
+        "electronics": 2,
+        "modern": 4
+       }
+      },
+      {
+       "section": "english",
+       "quota": {
+        "synonyms": 7,
+        "antonyms": 5,
+        "analogies": 5,
+        "completion": 8,
+        "grammar": 9,
+        "reading": 6
+       }
+      }
+     ]
+    }
+   }
+  }
+ },
+ "papers": 20
+}
