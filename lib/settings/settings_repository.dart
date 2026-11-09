@@ -33,7 +33,7 @@ class SettingsRepository {
   static const _practiceKey = 'practiceTally';
 
   Future<TestChoice> choice() async => TestChoice(
-    mode: await _preferences.getString(_modeKey) ?? 'math',
+    mode: await _preferences.getString(_modeKey) ?? 'engineering',
     stream: await _preferences.getString(_streamKey) ?? 'mock',
     useEthics: await _preferences.getBool(_ethicsKey) ?? false,
   );

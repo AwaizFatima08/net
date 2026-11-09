@@ -49,7 +49,7 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen> {
               Text(l10n.bySection, style: Theme.of(context).textTheme.titleMedium),
               for (final section in score.sections) _ScoreRow(section.title, section.tally),
               const SizedBox(height: AppSpacing.lg),
-              _AggregateCard(netPercent: score.overall.percent),
+              _AggregateCard(netPercent: score.overall.correct * 100 / score.overall.total),
               const SizedBox(height: AppSpacing.lg),
               Text(
                 l10n.weakTopics,
@@ -90,7 +90,7 @@ class _ScoreCard extends StatelessWidget {
               style: Theme.of(context).textTheme.displayMedium,
             ),
             Text(l10n.estimatedScore),
-            Text(l10n.scoreOutOf(overall.correct, overall.total)),
+            Text(l10n.percentLabel(overall.percent)),
             const SizedBox(height: AppSpacing.sm),
             Chip(
               avatar: Icon(passed ? Icons.check_circle_outline : Icons.trending_up),
@@ -114,13 +114,13 @@ class _ScoreCard extends StatelessWidget {
 const referenceScore = 70;
 
 /// NUST merit on NET basis: NET 75%, HSSC 15%, SSC 10% (nust.edu.pk, checked 9 Nov 2026).
-double netAggregate({required int netPercent, required double ssc, required double hssc}) =>
+double netAggregate({required double netPercent, required double ssc, required double hssc}) =>
     0.75 * netPercent + 0.15 * hssc + 0.10 * ssc;
 
 class _AggregateCard extends StatefulWidget {
   const _AggregateCard({required this.netPercent});
 
-  final int netPercent;
+  final double netPercent;
 
   @override
   State<_AggregateCard> createState() => _AggregateCardState();

@@ -49,12 +49,17 @@ class _TestsList extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // A stored choice from an older build may name a mode or stream that no longer exists.
     final mode = catalog.modes.firstWhere(
       (candidate) => candidate.key == choice.mode,
+      orElse: () => catalog.modes.first,
     );
+    final stream = mode.streams.any((s) => s.key == choice.stream)
+        ? choice.stream
+        : mode.streams.first.key;
     final shown = [
       for (final paper in papers)
-        if (paper.mode == choice.mode && paper.stream == choice.stream) paper,
+        if (paper.mode == mode.key && paper.stream == stream) paper,
     ];
     final attempts = ref.watch(attemptsProvider).value ?? const <Attempt>[];
     return ListView(
