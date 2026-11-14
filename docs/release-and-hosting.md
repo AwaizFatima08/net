@@ -11,18 +11,19 @@
 - Hostinger: subdomain `net.homilabs.org` (folder `public_html/net`), created 9 Nov 2026 in hPanel → homilabs.org → Domains → Subdomains. DNS is Hostinger's (dns-parking.com) and resolved at once; SSL was issued within minutes.
 - Pages: landing, `/privacy.html`, `/terms.html`, `/app-ads.txt`.
 - Change `website/`, commit, then `bash scripts/publish-site.sh` (pushes `deploy`, then pulls it on the server over SSH). Flush the CDN cache in hPanel if pages look stale.
-- After Play launch: replace "Coming soon on Google Play" with the Play link, and add the app to homilabs.org.
+- Play link on the landing page since 14 Nov 2026. Still to do: add the app to homilabs.org.
 
 ## AdMob (account homilabs.smc@gmail.com)
 - Created 9 Nov 2026: app "Prep Simulator for NET", App ID `ca-app-pub-2087846699268567~7211622553`; units banner `net_home_banner` (`/1299006233`) and interstitial `net_results_interstitial` (`/9610555188`) (ids in `config/admob.json`). Debug builds use Google test units.
-- "Limited ad serving" until the Play listing is live. Then: AdMob → Apps → this app → Add store (com.homilabs.net_prep). `app-ads.txt` is already on the site.
+- Play store linked 14 Nov 2026 (AdMob → Apps → Add store, com.homilabs.net_prep); AdMob's own app review takes 2-3 days, ads stay limited until it passes. `app-ads.txt` is already on the site.
 - Privacy & messaging: "Prep Simulator for NET consent" (European regulations, this app only, privacy URL https://net.homilabs.org/privacy.html, "Do not consent" on for all countries) published 9 Nov 2026 (Homi's go-ahead).
 
 ## Play Console
 - HomiLabs organization account (developer id 9161588402757830740), app id 4974767593974247789. Created 9 Nov 2026.
-- Filled in 9 Nov 2026: all 10 App content declarations (privacy policy, ads: yes, no sign-in, content rating IARC: All Other App Types, educational, No to everything else; target age 16-17 and 18+; data safety: App interactions and Device or other IDs collected and shared for Advertising, required, encrypted in transit, no accounts; advertising ID: yes, advertising; not a government app; no financial or health features), store settings (Education, homilabs.smc@gmail.com, https://net.homilabs.org), en-US listing (icon, feature graphic, 7 screenshots), production release 1 (1.0.0) to 177 countries plus rest of world. **Sent for review 9 Nov 2026.**
+- Filled in 9 Nov 2026: all 10 App content declarations (privacy policy, ads: yes, no sign-in, content rating IARC: All Other App Types, educational, No to everything else; target age 16-17 and 18+; data safety: App interactions and Device or other IDs collected and shared for Advertising, required, encrypted in transit, no accounts; advertising ID: yes, advertising; not a government app; no financial or health features), store settings (Education, homilabs.smc@gmail.com, https://net.homilabs.org), en-US listing (icon, feature graphic, 7 screenshots), production release 1 (1.0.0) to 177 countries plus rest of world. **Sent for review 9 Nov 2026; live on Google Play by 14 Nov 2026** (https://play.google.com/store/apps/details?id=com.homilabs.net_prep).
 - Misleading Claims policy: the sibling NLE app was rejected on 7 Nov 2026 for missing official source links and a not-a-government-entity disclaimer. The NET listing description, About screen and website all carry both (links to nust.edu.pk and ugadmissions.nust.edu.pk).
-- After approval: AdMob → Apps → this app → Add store (search by the full listing URL); replace "Coming soon on Google Play" on the site with the Play link; add the app to homilabs.org.
+- After approval (done 14 Nov 2026): AdMob store linked, site Play link live. Left: add the app to homilabs.org.
+- Launch social kit (poster, story, reel, captions): `/mnt/storage/projects/marketing/net-launch-2026-11/`.
 - Uploads from the built-in browser: the AAB (49 MB) is too large for the Chrome extension's 10 MB upload; it was staged briefly at an unguessable path on net.homilabs.org, fetched into the page's file input, then deleted and the CDN cache flushed.
 
 | Item | Value |
