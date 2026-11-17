@@ -15,7 +15,7 @@
 
 ## AdMob (account homilabs.smc@gmail.com)
 - Created 9 Nov 2026: app "Prep Simulator for NET", App ID `ca-app-pub-2087846699268567~7211622553`; units banner `net_home_banner` (`/1299006233`) and interstitial `net_results_interstitial` (`/9610555188`) (ids in `config/admob.json`). Debug builds use Google test units.
-- Play store linked 14 Nov 2026 (AdMob → Apps → Add store, com.homilabs.net_prep); AdMob's own app review takes 2-3 days, ads stay limited until it passes. `app-ads.txt` is already on the site.
+- Play store linked 14 Nov 2026 (AdMob → Apps → Add store, com.homilabs.net_prep); AdMob approved it by 17 Nov 2026 (Ready, ad serving enabled, Google Play, 2 active units). `app-ads.txt` is already on the site.
 - Privacy & messaging: "Prep Simulator for NET consent" (European regulations, this app only, privacy URL https://net.homilabs.org/privacy.html, "Do not consent" on for all countries) published 9 Nov 2026 (Homi's go-ahead).
 
 ## Play Console
